@@ -1,0 +1,176 @@
+body {
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+/*Header Section Styles*/
+
+#nav-bar {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    background-color: #EAEAEA;
+    width: 100%;
+}
+
+header {
+    background-color: #EAEAEA;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #666666;
+}
+
+figure {
+    width: 25%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 40px;
+}
+
+img{
+    mix-blend-mode: screen;
+    z-index: 1;
+    width: 20%;
+    height: 18%;
+    min-width: 50px;
+    min-height: 50px;
+    mix-blend-mode: multiply;
+}
+
+figcaption {
+    padding-left: 5%;
+    font-size: 120%;
+}
+
+.kaboom {
+    color:  #DC143C;
+}
+
+
+#nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nav ul li {
+    list-style: none;
+    margin: 0 40px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #666666;
+}
+
+/*Main Section*/
+
+#main-flex {
+    margin-top: 100px;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form {
+    min-width: 500px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+}
+
+#email {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+#submit {
+    background-color: yellow;
+    padding: 10px 7px;
+}
+
+.grid {
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+
+.dp {
+    width: 100px;
+    height: 100px;
+}
+
+.wd {
+    width: 114px;
+}
+
+.info h2 {
+    margin: 0;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+#tutorial {
+    width: 560px;
+}
+
+#features  {
+    margin: 80px auto;
+}
+
+#tutorial {
+    margin: 80px auto 0 auto;
+}
+
+#buy {
+    width: 100px;
+    margin: 10px auto;
+    padding: 0;
+}
+
+#buy button {
+    margin-top: 0;
+    width: 100px;
+}
+
+button {
+    background-color: #cd3150;
+    border: none;
+    padding: 10px 1px;
+    border-radius: 4px;
+}
+
+button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+@media (max-width: 600px) {
+    #nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
